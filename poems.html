@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poems & Thoughts</title>
-
   <meta name="description" content="Read inspiring poems, quotes, and thoughts. Share your ideas and reflections.">
   <meta name="keywords" content="poems, thoughts, quotes, ideas, inspiration, reflections">
   <meta name="author" content="Your Name">
@@ -13,7 +12,8 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #e0f7fa, #b3e5fc);
+      background: linear-gradient(rgba(224,247,250,0.6), rgba(179,229,252,0.6)), url('images/background-poems.jpg') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
       color: #333;
@@ -49,7 +49,7 @@
     }
 
     .poem-card {
-      background-color: #e1f5fe;
+      background-color: rgba(225,245,254,0.85);
       border-radius: 15px;
       padding: 20px;
       margin: 20px 0;
@@ -73,53 +73,41 @@
 </head>
 <body>
 
-  <header>
-    <h1>Poems & Thoughts</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="poems.html">Poems & Thoughts</a>
-      <a href="you-are-not-alone.html">You Are Not Alone</a>
-      <a href="share.html">Share Your Thoughts</a>
-      <a href="books.html">My Books</a>
-    </nav>
-  </header>
+<header>
+  <h1>Poems & Thoughts</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="poems.html">Poems & Thoughts</a>
+    <a href="you-are-not-alone.html">You Are Not Alone</a>
+    <a href="share.html">Share Your Thoughts</a>
+    <a href="books.html">My Books</a>
+  </nav>
+</header>
 
-  <section class="container">
-    <h2>Inspiring Poems & Quotes</h2>
+<section class="container">
+  <h2>Inspiring Poems & Quotes</h2>
 
-    <!-- Example Poem without Image -->
-    <div class="poem-card">
-      <h3>Reflection on Life</h3>
-      <p>by Author Name</p>
-      <p>
-        Life is a journey, not a race.<br>
-        Embrace the moments, find your place.<br>
-        Challenges come and go, but love remains.
-      </p>
-    </div>
+  <div class="poem-card">
+    <h3>Reflection on Life</h3>
+    <p>by Author Name</p>
+    <p>Life is a journey, not a race.<br>Embrace the moments, find your place.<br>Challenges come and go, but love remains.</p>
+  </div>
 
-    <!-- Example Poem with Image -->
-    <div class="poem-card">
-      <h3>Sunrise Inspiration</h3>
-      <p>by Author Name</p>
-      <p>
-        Every dawn is a new beginning.<br>
-        Let the light guide your path today.
-      </p>
-      <img src="images/example-inspiration.jpg" alt="Sunrise inspiration">
-    </div>
+  <div class="poem-card">
+    <h3>Sunrise Inspiration</h3>
+    <p>by Author Name</p>
+    <p>Every dawn is a new beginning.<br>Let the light guide your path today.</p>
+    <img src="images/example-inspiration.jpg" alt="Sunrise inspiration">
+  </div>
 
-    <div class="poem-card">
-      <p>
-        <strong>Want to share your own poem or thought?</strong> <a href="share.html">Submit it here</a> and inspire others.
-      </p>
-    </div>
+  <div class="poem-card">
+    <p><strong>Want to share your own poem or thought?</strong> <a href="share.html">Submit it here</a> and inspire others.</p>
+  </div>
+</section>
 
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Thoughts, Poems & My Books</p>
-  </footer>
+<footer>
+  <p>&copy; 2026 Thoughts, Poems & My Books</p>
+</footer>
 
 </body>
 </html>
