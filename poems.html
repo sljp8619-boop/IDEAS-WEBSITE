@@ -3,126 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Poems & Thoughts – Share Inspiration</title>
+  <title>Poems & Thoughts</title>
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Read and explore poems and thoughts for comfort, inspiration, reflection, or joy. Share your own poems with the world.">
-  <meta name="keywords" content="poems, thoughts, inspirational poems, comfort, reflection, joy, emotional support, self-love, ideas">
+  <meta name="description" content="Read inspiring poems, quotes, and thoughts. Share your ideas and reflections.">
+  <meta name="keywords" content="poems, thoughts, quotes, ideas, inspiration, reflections">
   <meta name="author" content="Your Name">
-
-  <!-- Google Verification -->
-  <meta name="google-site-verification" content="VLy_eupP7seMwR6XFBiZKjZ5p_KkhI7CSGdnnPhWWMs" />
 
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Styles for poems on images */
-    .poem-image-card {
-      position: relative;
-      width: 100%;
-      max-width: 600px;
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #e0f7fa, #b3e5fc);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #0288d1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
       margin: 20px auto;
       padding: 20px;
-      color: white;
+    }
+
+    h1, h2 {
+      color: #01579b;
       text-align: center;
-      background-size: cover;
-      background-position: center;
+    }
+
+    .poem-card {
+      background-color: #e1f5fe;
       border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
-
-    .poem-image-card .poem-text {
-      background: rgba(0, 0, 0, 0.4);
       padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .poem-card img {
+      max-width: 100%;
       border-radius: 10px;
+      margin-top: 10px;
     }
 
-    .poem-image-card h3 {
-      margin-bottom: 10px;
-    }
-
-    .poem-image-card p {
-      margin: 5px 0;
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #0288d1;
+      color: white;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
-  <!-- Header / Navigation -->
+
   <header>
     <h1>Poems & Thoughts</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="poems.html">Poems & Thoughts</a>
-      <a href="celebrate.html">Celebrate</a>
+      <a href="you-are-not-alone.html">You Are Not Alone</a>
       <a href="share.html">Share Your Thoughts</a>
       <a href="books.html">My Books</a>
     </nav>
   </header>
 
-  <!-- Poems Section -->
   <section class="container">
-    <h2>Featured Poems & Thoughts</h2>
+    <h2>Inspiring Poems & Quotes</h2>
 
-    <!-- Poem Card 1 -->
-    <div class="poem-image-card" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80');">
-      <div class="poem-text">
-        <h3>I Love Me</h3>
-        <p>by Author Name</p>
-        <p>
-          I look within and find my light,<br>
-          A spark that shines both day and night,<br>
-          In every thought and every deed,<br>
-          I grow, I love, I plant the seed.
-        </p>
-      </div>
+    <!-- Example Poem without Image -->
+    <div class="poem-card">
+      <h3>Reflection on Life</h3>
+      <p>by Author Name</p>
+      <p>
+        Life is a journey, not a race.<br>
+        Embrace the moments, find your place.<br>
+        Challenges come and go, but love remains.
+      </p>
     </div>
 
-    <!-- Poem Card 2 -->
-    <div class="poem-image-card" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80');">
-      <div class="poem-text">
-        <h3>When Feeling Alone</h3>
-        <p>by Author Name</p>
-        <p>
-          In quiet moments when I feel alone,<br>
-          I whisper truths I've always known,<br>
-          That even shadows hold the sun,<br>
-          And life’s journey has just begun.
-        </p>
-      </div>
+    <!-- Example Poem with Image -->
+    <div class="poem-card">
+      <h3>Sunrise Inspiration</h3>
+      <p>by Author Name</p>
+      <p>
+        Every dawn is a new beginning.<br>
+        Let the light guide your path today.
+      </p>
+      <img src="images/example-inspiration.jpg" alt="Sunrise inspiration">
     </div>
 
-    <!-- Poem Card 3 -->
-    <div class="poem-image-card" style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80');">
-      <div class="poem-text">
-        <h3>Celebrate Life</h3>
-        <p>by Author Name</p>
-        <p>
-          Raise your glass, embrace the cheer,<br>
-          For every moment we hold dear,<br>
-          Birthdays, anniversaries, smiles that glow,<br>
-          Celebrate life and let it show.
-        </p>
-      </div>
+    <div class="poem-card">
+      <p>
+        <strong>Want to share your own poem or thought?</strong> <a href="share.html">Submit it here</a> and inspire others.
+      </p>
     </div>
 
-    <!-- Add your poems below by copying a poem-image-card block -->
-    <!-- Example:
-    <div class="poem-image-card" style="background-image: url('yourimage.jpg');">
-      <div class="poem-text">
-        <h3>Your Poem Title</h3>
-        <p>by Your Name</p>
-        <p>
-          Line 1<br>
-          Line 2<br>
-          Line 3
-        </p>
-      </div>
-    </div>
-    -->
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2026 Thoughts, Poems & My Books</p>
   </footer>
+
 </body>
 </html>
