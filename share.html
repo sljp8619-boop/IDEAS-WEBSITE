@@ -6,57 +6,41 @@
   <title>Share Your Thoughts & Poems</title>
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Submit your poems, quotes, or inspirational images. All submissions are reviewed before appearing on the website.">
-  <meta name="keywords" content="share thoughts, submit poems, quotes, images, inspiration, ideas, user submissions, emotional support">
+  <meta name="description" content="Submit your poems, quotes, or inspirational thoughts. Submissions are reviewed before appearing on the website.">
+  <meta name="keywords" content="share thoughts, submit poems, quotes, images, inspiration, ideas, emotional support">
   <meta name="author" content="Your Name">
-
-  <!-- Google Verification -->
-  <meta name="google-site-verification" content="VLy_eupP7seMwR6XFBiZKjZ5p_KkhI7CSGdnnPhWWMs" />
 
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Simple styling for the form */
     .container {
       max-width: 700px;
       margin: 20px auto;
       padding: 20px;
     }
 
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-
-    input[type="text"],
-    textarea {
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-    }
-
-    input[type="file"] {
-      font-size: 16px;
-    }
-
-    input[type="submit"] {
+    a.submit-link, a.email-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
       background-color: #4CAF50;
       color: white;
-      padding: 12px;
+      text-decoration: none;
       font-size: 16px;
-      border: none;
       border-radius: 8px;
-      cursor: pointer;
+      transition: background 0.3s;
     }
 
-    input[type="submit"]:hover {
+    a.submit-link:hover, a.email-link:hover {
       background-color: #45a049;
     }
 
     p.instructions {
       font-size: 14px;
       color: #555;
+    }
+
+    h2 {
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -74,23 +58,30 @@
   </header>
 
   <section class="container">
-    <h2>Submit Your Content</h2>
+    <h2>Submit Your Poem, Quote, or Thought</h2>
     <p class="instructions">
-      Share a quote, poem, or an inspirational image. All submissions are **reviewed by us before appearing on the website** to ensure safety and appropriateness.
+      You can share your poems, quotes, or thoughts in two ways. All submissions are reviewed before appearing on the website to ensure safety and appropriateness.
     </p>
 
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
-      <label for="name">Your Name (optional):</label>
-      <input type="text" name="name" id="name" placeholder="Your Name">
+    <!-- Option 1: Google Form -->
+    <p class="instructions">
+      <strong>Option 1:</strong> Use our Google Form to submit your poem or quote with an optional image:
+    </p>
+    <a class="submit-link" href="YOUR_GOOGLE_FORM_LINK" target="_blank">
+      Submit via Google Form
+    </a>
 
-      <label for="quote">Your Quote or Poem:</label>
-      <textarea name="quote" id="quote" rows="4" placeholder="Write your poem or quote here..." required></textarea>
+    <!-- Option 2: Email -->
+    <p class="instructions" style="margin-top:20px;">
+      <strong>Option 2:</strong> Send your poem, quote, or image directly to us via email:
+    </p>
+    <a class="email-link" href="mailto:sljp8619@gmail.com">
+      Send Submission by Email
+    </a>
 
-      <label for="image">Upload an Image (optional, max 5MB):</label>
-      <input type="file" name="image" id="image" accept="image/*">
-
-      <input type="submit" value="Submit">
-    </form>
+    <p class="instructions" style="margin-top:20px;">
+      Once we review your submission, it may appear as a permanent card on our Poems & Thoughts page.
+    </p>
   </section>
 
   <footer>
