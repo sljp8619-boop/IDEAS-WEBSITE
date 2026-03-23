@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Share Your Thoughts</title>
-  <meta name="description" content="Share your ideas, poems, quotes, and thoughts. Inspire others!">
-  <meta name="google-site-verification" content="E-WgWzNES2rjRrpZNpiA26bDfBIzNwrsddkV-XE7sHE" />
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(rgba(255, 205, 210,0.6), rgba(255, 205, 210,0.6)), url('images/background-share.jpg') no-repeat center center fixed;
-      background-size: cover;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header { background-color: #c62828; color: white; padding: 20px; text-align: center; }
-    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    h1, h2 { font-family: 'MV Boli', 'Ink Free', 'Segoe Script', cursive; color: #880e4f; text-align: center; }
-    .container { max-width: 900px; margin: 20px auto; padding: 20px; text-align: center; }
-    .form-card {
-      background-color: rgba(255, 235, 238, 0.85);
-      color: #880e4f;
-      border-radius: 15px;
-      padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    iframe { width: 100%; height: 600px; border: none; border-radius: 10px; }
-    footer { text-align: center; padding: 15px; background-color: #c62828; color: white; margin-top: 30px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Share Your Thoughts</title>
+<meta name="description" content="Share your ideas, poems, quotes, and thoughts. Inspire others!">
+<meta name="google-site-verification" content="E-WgWzNES2rjRrpZNpiA26bDfBIzNwrsddkV-XE7sHE" />
+<style>
+/* Body with automatic background image from Unsplash + pastel overlay */
+body {
+  font-family: 'Segoe UI', 'MV Boli', 'Ink Free', sans-serif;
+  background: linear-gradient(rgba(255,205,210,0.6), rgba(255,205,210,0.6)),
+              url('https://images.unsplash.com/photo-1515442261605-659877be7efc?auto=format&fit=crop&w=1470&q=80')
+              no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #c62828;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container for form */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Form card */
+.form-card {
+  background-color: rgba(255, 235, 238, 0.85);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #c62828;
+  color: white;
+  margin-top: 30px;
+}
+</style>
 </head>
 <body>
+
 <header>
   <h1>Share Your Thoughts</h1>
   <nav>
@@ -44,20 +77,21 @@
     <a href="books.html">My Books</a>
   </nav>
 </header>
+
 <section class="container">
   <h2>We Value Your Ideas</h2>
+  <p>Submit your thoughts, poems, quotes, or inspiring messages below. Your words can motivate and uplift others!</p>
+
   <div class="form-card">
-    <p>Submit your thoughts, poems, quotes, or inspiring messages below. Your words can motivate and uplift others!</p>
-    <!-- Replace the src URL with your Google Form link -->
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEXAMPLEFORMURL/viewform?embedded=true">Loading…</iframe>
-  </div>
-  <div class="form-card">
-    <h3>Example Inspiration</h3>
-    <img src="images/share-example.jpg" alt="Creative writing inspiration" style="max-width:100%; border-radius:10px;">
+    <!-- Embed your Google Form here -->
+    <iframe src="https://docs.google.com/forms/d/e/1EIHT6jYXP4soEAWmLS3CPSJ_ItIGZfDq3IUJx9H1f_k/viewform?embedded=true"
+            width="100%" height="600" style="border:none;">Loading…</iframe>
   </div>
 </section>
+
 <footer>
   <p>&copy; 2026 Thoughts, Poems & My Books</p>
 </footer>
+
 </body>
 </html>
