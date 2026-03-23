@@ -5,83 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ideas & My Books - Home</title>
   <meta name="description" content="Welcome to my website! Explore thoughts, poems, quotes, and books I wrote.">
-  <meta name="keywords" content="ideas, books, poems, quotes, inspiration, thoughts">
-  <meta name="author" content="Your Name">
-
   <link rel="stylesheet" href="style.css">
   <style>
+    /* Background + overlay */
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(rgba(255,248,225,0.6), rgba(255,248,225,0.6)), url('images/background-home.jpg') no-repeat center center fixed;
+      background: linear-gradient(rgba(200, 235, 255,0.6), rgba(200, 235, 255,0.6)), url('images/background-home.jpg') no-repeat center center fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
       color: #333;
     }
 
-    header {
-      background-color: #ff9800;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+    /* Header */
+    header { background-color: #0288d1; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
 
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    /* Headings with handwriting fonts */
+    h1, h2 { font-family: 'MV Boli', 'Ink Free', 'Segoe Script', cursive; color: #4a148c; text-align: center; }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1, h2 {
-      color: #d84315;
-    }
+    .container { max-width: 900px; margin: 20px auto; padding: 20px; text-align: center; }
 
     .section-card {
-      background-color: rgba(255,243,224,0.8);
-      border-radius: 15px;
-      padding: 20px;
-      margin: 20px 0;
+      background-color: rgba(255, 255, 255, 0.8); /* highlight */
+      color: #1a237e; /* text color for contrast */
+      border-radius: 15px; padding: 20px; margin: 20px 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
-    a.button {
-      display: inline-block;
-      padding: 10px 18px;
-      background-color: #ff6f00;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      margin-top: 10px;
-      transition: background 0.3s;
-    }
+    a.button { display: inline-block; padding: 10px 18px; background-color: #0288d1; color: white; text-decoration: none; border-radius: 8px; margin-top: 10px; transition: background 0.3s; }
+    a.button:hover { background-color: #01579b; }
 
-    a.button:hover {
-      background-color: #e65100;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #ff9800;
-      color: white;
-      margin-top: 30px;
-    }
+    footer { text-align: center; padding: 15px; background-color: #0288d1; color: white; margin-top: 30px; }
   </style>
 </head>
 <body>
-
 <header>
   <h1>Welcome to My Ideas & Books</h1>
   <nav>
@@ -116,6 +75,5 @@
 <footer>
   <p>&copy; 2026 Thoughts, Poems & My Books</p>
 </footer>
-
 </body>
 </html>
