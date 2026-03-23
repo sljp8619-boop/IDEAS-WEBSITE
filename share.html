@@ -1,109 +1,33 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f4f4f9;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Your Thoughts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Share Your Thoughts</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ideas.html">Ideas</a>
+      <a href="books.html">Books</a>
+      <a href="share.html">Share Your Thoughts</a>
+    </nav>
+  </header>
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-}
+  <section class="container">
+    <h2>Let Me Know Your Ideas!</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <textarea name="thought" placeholder="Type your thought here..." required style="width:100%;height:150px;padding:0.5rem;"></textarea>
+      <br>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
 
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 1rem 0;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-nav {
-  margin-top: 0.5rem;
-}
-
-nav a {
-  color: #fff;
-  margin-right: 1rem;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.hero {
-  background-color: #6c5ce7;
-  color: white;
-  text-align: center;
-  padding: 4rem 0;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #fd79a8;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  background-color: #e84393;
-}
-
-section {
-  padding: 3rem 0;
-}
-
-.ideas .idea-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
-
-.ideas article {
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.books .book-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
-
-.books .book {
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-}
+  <footer>
+    <p>&copy; 2026 My Ideas Website</p>
+  </footer>
+</body>
+</html>
