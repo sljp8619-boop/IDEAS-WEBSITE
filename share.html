@@ -3,124 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Share Your Thoughts & Poems</title>
-
-  <meta name="description" content="Submit your poems, quotes, or inspirational thoughts. All submissions are reviewed before appearing on the website.">
-  <meta name="keywords" content="share thoughts, submit poems, quotes, images, inspiration, ideas, emotional support">
-  <meta name="author" content="Your Name">
-
+  <title>Share Your Thoughts</title>
+  <meta name="description" content="Share your ideas, poems, quotes, and thoughts with us. Inspire others!">
   <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #ffe6f0, #ff80ab);
+      background: linear-gradient(rgba(255, 205, 210, 0.6), rgba(255, 205, 210, 0.6)), url('images/background-share.jpg') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
       color: #333;
     }
 
-    header {
-      background-color: #d81b60;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+    header { background-color: #c62828; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
 
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    h1, h2 { font-family: 'MV Boli', 'Ink Free', 'Segoe Script', cursive; color: #880e4f; text-align: center; }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+    .container { max-width: 900px; margin: 20px auto; padding: 20px; text-align: center; }
 
-    .container {
-      max-width: 700px;
-      margin: 20px auto;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1, h2 {
+    .form-card {
+      background-color: rgba(255, 235, 238, 0.85);
       color: #880e4f;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
-    a.submit-link, a.email-link {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 20px;
-      background-color: #d81b60;
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      border-radius: 8px;
-      transition: background 0.3s;
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 10px;
     }
 
-    a.submit-link:hover, a.email-link:hover {
-      background-color: #880e4f;
-    }
-
-    p.instructions {
-      font-size: 14px;
-      color: #333;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #d81b60;
-      color: white;
-      margin-top: 30px;
-    }
+    footer { text-align: center; padding: 15px; background-color: #c62828; color: white; margin-top: 30px; }
   </style>
 </head>
 <body>
+<header>
+  <h1>Share Your Thoughts</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="poems.html">Poems & Thoughts</a>
+    <a href="you-are-not-alone.html">You Are Not Alone</a>
+    <a href="share.html">Share Your Thoughts</a>
+    <a href="books.html">My Books</a>
+  </nav>
+</header>
 
-  <header>
-    <h1>Share Your Thoughts & Poems</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="poems.html">Poems & Thoughts</a>
-      <a href="you-are-not-alone.html">You Are Not Alone</a>
-      <a href="share.html">Share Your Thoughts</a>
-      <a href="books.html">My Books</a>
-    </nav>
-  </header>
+<section class="container">
+  <h2>We Value Your Ideas</h2>
+  <div class="form-card">
+    <p>Submit your thoughts, poems, quotes, or inspiring messages below. Your words can motivate and uplift others!</p>
 
-  <section class="container">
-    <h2>Submit Your Poem, Quote, or Thought</h2>
-    <p class="instructions">
-      You can share your poems, quotes, or thoughts in two ways. All submissions are reviewed before appearing on the website to ensure safety and appropriateness.
-    </p>
+    <!-- Replace the src URL with your Google Form link -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEXAMPLEFORMURL/viewform?embedded=true">Loading…</iframe>
+  </div>
+</section>
 
-    <!-- Option 1: Google Form -->
-    <p class="instructions">
-      <strong>Option 1:</strong> Use our Google Form to submit your poem or quote with an optional image:
-    </p>
-    <a class="submit-link" href="YOUR_GOOGLE_FORM_LINK" target="_blank">
-      Submit via Google Form
-    </a>
-
-    <!-- Option 2: Email -->
-    <p class="instructions" style="margin-top:20px;">
-      <strong>Option 2:</strong> Send your poem, quote, or image directly to us via email:
-    </p>
-    <a class="email-link" href="mailto:sljp8619@gmail.com">
-      Send Submission by Email
-    </a>
-
-    <p class="instructions" style="margin-top:20px;">
-      Once we review your submission, it may appear as a permanent card on our Poems & Thoughts page.
-    </p>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Thoughts, Poems & My Books</p>
-  </footer>
-
+<footer>
+  <p>&copy; 2026 Thoughts, Poems & My Books</p>
+</footer>
 </body>
 </html>
