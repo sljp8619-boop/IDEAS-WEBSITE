@@ -4,141 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>You Are Not Alone</title>
-
-  <meta name="description" content="Support, encouragement, and inspiring messages. You are never alone. Share your thoughts, poems, or images here.">
-  <meta name="keywords" content="you are not alone, encouragement, support, inspiration, quotes, poems, thoughts, mental health">
-  <meta name="author" content="Your Name">
-
+  <meta name="description" content="Encouragement and support for anyone feeling alone, sad, or in need of comfort.">
+  <meta name="google-site-verification" content="E-WgWzNES2rjRrpZNpiA26bDfBIzNwrsddkV-XE7sHE" />
   <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #f3e5f5, #e1bee7); /* pastel purple gradient */
+      background: linear-gradient(rgba(230, 230, 255,0.6), rgba(230, 230, 255,0.6)), url('images/background-support.jpg') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
       color: #333;
     }
-
-    header {
-      background-color: #7b1fa2;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-    }
-
-    h1, h2 {
+    header { background-color: #6a1b9a; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    h1, h2 { font-family: 'MV Boli', 'Ink Free', 'Segoe Script', cursive; color: #4a148c; text-align: center; }
+    .container { max-width: 900px; margin: 20px auto; padding: 20px; text-align: center; }
+    .support-card {
+      background-color: rgba(245, 235, 255, 0.85);
       color: #4a148c;
-      text-align: center;
-    }
-
-    .message-card {
-      background-color: #f8bbd0; /* pastel pink card */
       border-radius: 15px;
       padding: 20px;
       margin: 20px 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-
-    .message-card img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #7b1fa2;
-      color: white;
-      margin-top: 30px;
-    }
-
-    a.button {
-      display: inline-block;
-      padding: 10px 18px;
-      background-color: #4a148c;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      margin-top: 10px;
-      transition: background 0.3s;
-    }
-
-    a.button:hover {
-      background-color: #311b92;
-    }
-
-    @media (max-width: 600px) {
-      nav a {
-        display: block;
-        margin: 5px 0;
-      }
-    }
+    .support-card img { max-width: 100%; border-radius: 10px; margin-top: 10px; }
+    footer { text-align: center; padding: 15px; background-color: #6a1b9a; color: white; margin-top: 30px; }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>You Are Not Alone</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="poems.html">Poems & Thoughts</a>
-      <a href="you-are-not-alone.html">You Are Not Alone</a>
-      <a href="share.html">Share Your Thoughts</a>
-      <a href="books.html">My Books</a>
-    </nav>
-  </header>
-
-  <section class="container">
-    <h2>Support & Encouragement</h2>
-
-    <div class="message-card">
-      <p>
-        Feeling alone or overwhelmed? You are never truly alone. Here, we share messages, poems, and quotes to lift your spirits and remind you that your feelings matter.
-      </p>
-    </div>
-
-    <div class="message-card">
-      <p>
-        Celebrate life, support each other, and share kindness. Whether happy or sad, your thoughts are valued and welcome here.
-      </p>
-    </div>
-
-    <div class="message-card">
-      <p>
-        <strong>Tip:</strong> You can also <a href="share.html" class="button">submit your own poem, quote, or image</a> to inspire others. All submissions are reviewed before appearing on the site.
-      </p>
-    </div>
-
-    <!-- Example Inspirational Image -->
-    <div class="message-card">
-      <p>
-        "Even in the darkest times, a small light can guide your way."
-      </p>
-      <img src="images/example-support.jpg" alt="Inspirational light">
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Thoughts, Poems & My Books</p>
-  </footer>
-
+<header>
+  <h1>You Are Not Alone</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="poems.html">Poems & Thoughts</a>
+    <a href="you-are-not-alone.html">You Are Not Alone</a>
+    <a href="share.html">Share Your Thoughts</a>
+    <a href="books.html">My Books</a>
+  </nav>
+</header>
+<section class="container">
+  <h2>Encouragement & Support</h2>
+  <div class="support-card">
+    <p>If you feel sad, lonely, or overwhelmed, remember: you are not alone. Share your thoughts or read comforting messages from others.</p>
+    <img src="images/support-example.jpg" alt="Support and comfort illustration">
+  </div>
+  <div class="support-card">
+    <p><strong>Want to share your own supportive message or story?</strong> <a href="share.html">Submit it here</a> and inspire someone today.</p>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2026 Thoughts, Poems & My Books</p>
+</footer>
 </body>
 </html>
