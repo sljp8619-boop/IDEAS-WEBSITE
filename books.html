@@ -1,60 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Books – Thoughts & Poems</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Books</title>
+<meta name="description" content="Browse and buy my inspirational books.">
+<meta name="google-site-verification" content="E-WgWzNES2rjRrpZNpiA26bDfBIzNwrsddkV-XE7sHE" />
+<style>
+body {
+  font-family: 'Segoe UI', 'MV Boli', 'Ink Free', sans-serif;
+  background: linear-gradient(rgba(255, 230, 230,0.6), rgba(255, 230, 230,0.6)),
+              url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1470&q=80') 
+              no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Discover and buy my books about inspiration, thoughts, poems, and reflections. Perfect for personal growth, self-love, and celebration ideas.">
-  <meta name="keywords" content="books, buy books, poems, thoughts, inspirational books, self-love, celebration, birthday ideas, reflections">
-  <meta name="author" content="Your Name">
+/* Header */
+header {
+  background-color: #8e24aa;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-  <!-- Google Verification -->
-  <meta name="google-site-verification" content="VLy_eupP7seMwR6XFBiZKjZ5p_KkhI7CSGdnnPhWWMs" />
+/* Navigation */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
 
-  <link rel="stylesheet" href="style.css">
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Book cards */
+.book-card {
+  background-color: rgba(245, 230, 250, 0.85);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book-card h3 {
+  font-family: 'MV Boli', 'Ink Free', 'Segoe Script', cursive;
+  color: #6a1b9a;
+}
+
+.book-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #6a1b9a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.book-card a:hover {
+  background-color: #4a148c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #8e24aa;
+  color: white;
+  margin-top: 30px;
+}
+</style>
 </head>
 <body>
-  <!-- Header / Navigation -->
-  <header>
-    <h1>My Books</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="poems.html">Poems & Thoughts</a>
-      <a href="celebrate.html">Celebrate</a>
-      <a href="share.html">Share Your Thoughts</a>
-      <a href="books.html">My Books</a>
-    </nav>
-  </header>
 
-  <!-- Books Section -->
-  <section class="container">
-    <h2>Books I Wrote</h2>
-    <p>Explore my collection of books filled with inspiration, poems, thoughts, and ideas. Click "Buy Now" to get your copy!</p>
+<header>
+<h1>My Inspirational Books</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="poems.html">Poems & Thoughts</a>
+<a href="you-are-not-alone.html">You Are Not Alone</a>
+<a href="share.html">Share Your Thoughts</a>
+<a href="books.html">My Books</a>
+</nav>
+</header>
 
-    <div class="grid">
-      <div class="card">
-        <img src="yourbookcover.jpg" alt="Book 1 Cover">
-        <h3>Book Title 1</h3>
-        <p>A book about inspiration, self-love, and daily reflections to lift your spirits.</p>
-        <a href="https://gumroad.com/l/yourbooklink" target="_blank" class="btn">Buy Now</a>
-      </div>
+<section class="container">
+<h2>Books to Inspire Your Mind</h2>
 
-      <div class="card">
-        <img src="yourbookcover2.jpg" alt="Book 2 Cover">
-        <h3>Book Title 2</h3>
-        <p>A collection of poems and thoughts for comfort, joy, and reflection during special moments.</p>
-        <a href="https://gumroad.com/l/yourbooklink2" target="_blank" class="btn">Buy Now</a>
-      </div>
+<div class="book-card">
+<h3>Book 1: “Daily Inspirations”</h3>
+<p>A collection of daily thoughts and quotes to start your day with positivity.</p>
+<a href="https://gumroad.com/your-book-link-1" target="_blank">Buy This Book</a>
+</div>
 
-      <!-- Add more books here -->
-    </div>
-  </section>
+<div class="book-card">
+<h3>Book 2: “Moments of Calm”</h3>
+<p>Short poems and reflections to help you relax and reflect on life.</p>
+<a href="https://gumroad.com/your-book-link-2" target="_blank">Buy This Book</a>
+</div>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Thoughts, Poems & My Books</p>
-  </footer>
+<div class="book-card">
+<h3>Book 3: “Inspiring Thoughts”</h3>
+<p>Thoughts to motivate, uplift, and encourage self-love and mindfulness.</p>
+<a href="https://gumroad.com/your-book-link-3" target="_blank">Buy This Book</a>
+</div>
+
+</section>
+
+<footer>
+<p>&copy; 2026 Thoughts, Poems & My Books</p>
+</footer>
+
 </body>
 </html>
