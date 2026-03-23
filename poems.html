@@ -14,6 +14,36 @@
   <meta name="google-site-verification" content="VLy_eupP7seMwR6XFBiZKjZ5p_KkhI7CSGdnnPhWWMs" />
 
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Styles for poems on images */
+    .poem-image-card {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .poem-image-card .poem-text {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .poem-image-card h3 {
+      margin-bottom: 10px;
+    }
+
+    .poem-image-card p {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 <body>
   <!-- Header / Navigation -->
@@ -33,51 +63,59 @@
     <h2>Featured Poems & Thoughts</h2>
 
     <!-- Poem Card 1 -->
-    <div class="poem-card">
-      <h3>I Love Me</h3>
-      <p>by Author Name</p>
-      <p>
-        I look within and find my light,<br>
-        A spark that shines both day and night,<br>
-        In every thought and every deed,<br>
-        I grow, I love, I plant the seed.
-      </p>
+    <div class="poem-image-card" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80');">
+      <div class="poem-text">
+        <h3>I Love Me</h3>
+        <p>by Author Name</p>
+        <p>
+          I look within and find my light,<br>
+          A spark that shines both day and night,<br>
+          In every thought and every deed,<br>
+          I grow, I love, I plant the seed.
+        </p>
+      </div>
     </div>
 
     <!-- Poem Card 2 -->
-    <div class="poem-card">
-      <h3>When Feeling Alone</h3>
-      <p>by Author Name</p>
-      <p>
-        In quiet moments when I feel alone,<br>
-        I whisper truths I've always known,<br>
-        That even shadows hold the sun,<br>
-        And life’s journey has just begun.
-      </p>
+    <div class="poem-image-card" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80');">
+      <div class="poem-text">
+        <h3>When Feeling Alone</h3>
+        <p>by Author Name</p>
+        <p>
+          In quiet moments when I feel alone,<br>
+          I whisper truths I've always known,<br>
+          That even shadows hold the sun,<br>
+          And life’s journey has just begun.
+        </p>
+      </div>
     </div>
 
     <!-- Poem Card 3 -->
-    <div class="poem-card">
-      <h3>Celebrate Life</h3>
-      <p>by Author Name</p>
-      <p>
-        Raise your glass, embrace the cheer,<br>
-        For every moment we hold dear,<br>
-        Birthdays, anniversaries, smiles that glow,<br>
-        Celebrate life and let it show.
-      </p>
+    <div class="poem-image-card" style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80');">
+      <div class="poem-text">
+        <h3>Celebrate Life</h3>
+        <p>by Author Name</p>
+        <p>
+          Raise your glass, embrace the cheer,<br>
+          For every moment we hold dear,<br>
+          Birthdays, anniversaries, smiles that glow,<br>
+          Celebrate life and let it show.
+        </p>
+      </div>
     </div>
 
-    <!-- Add your poems below by copying the block above -->
+    <!-- Add your poems below by copying a poem-image-card block -->
     <!-- Example:
-    <div class="poem-card">
-      <h3>Your Poem Title</h3>
-      <p>by Your Name</p>
-      <p>
-        Line 1<br>
-        Line 2<br>
-        Line 3
-      </p>
+    <div class="poem-image-card" style="background-image: url('yourimage.jpg');">
+      <div class="poem-text">
+        <h3>Your Poem Title</h3>
+        <p>by Your Name</p>
+        <p>
+          Line 1<br>
+          Line 2<br>
+          Line 3
+        </p>
+      </div>
     </div>
     -->
   </section>
