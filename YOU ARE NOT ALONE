@@ -4,30 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>You Are Not Alone</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Support, encouragement, and inspiring messages. You are never alone. Share your thoughts, poems, or images here.">
+  <meta name="keywords" content="you are not alone, encouragement, support, inspiration, quotes, poems, thoughts, mental health">
+  <meta name="author" content="Your Name">
+
   <link rel="stylesheet" href="style.css">
   <style>
-    .container {
-      max-width: 700px;
-      margin: 20px auto;
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #d6336c;
+      color: white;
       padding: 20px;
       text-align: center;
     }
 
-    .message-card {
-      background-color: #ffebf0;
-      border-radius: 15px;
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
       padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      color: #333;
     }
 
     h1, h2 {
       color: #d6336c;
+      text-align: center;
+    }
+
+    .message-card {
+      background-color: #fff0f5;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .message-card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #d6336c;
+      color: white;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
     }
   </style>
 </head>
 <body>
+
+  <!-- Header / Navigation -->
   <header>
     <h1>You Are Not Alone</h1>
     <nav>
@@ -40,22 +94,38 @@
   </header>
 
   <section class="container">
-    <h2>Encouragement & Support</h2>
+    <h2>Support & Encouragement</h2>
+
     <div class="message-card">
       <p>
-        Feeling alone, sad, or overwhelmed? You are never truly alone. 
-        Here, we share thoughts, poems, and messages to lift your spirit.
+        Feeling alone or overwhelmed? You are never truly alone. Here, we share messages, poems, and quotes to lift your spirits and remind you that your feelings matter.
       </p>
     </div>
+
     <div class="message-card">
       <p>
-        Celebrate life, support each other, and share kindness. Your feelings matter.
+        Celebrate life, support each other, and share kindness. Whether happy or sad, your thoughts are valued and welcome here.
       </p>
+    </div>
+
+    <div class="message-card">
+      <p>
+        <strong>Tip:</strong> You can also <a href="share.html">submit your own poem, quote, or image</a> to inspire others. All submissions are reviewed before appearing on the site.
+      </p>
+    </div>
+
+    <!-- Optional inspirational image example -->
+    <div class="message-card">
+      <p>
+        "The sun will rise, and we will try again."
+      </p>
+      <img src="images/example-inspiration.jpg" alt="Sunrise inspiration">
     </div>
   </section>
 
   <footer>
     <p>&copy; 2026 Thoughts, Poems & My Books</p>
   </footer>
+
 </body>
 </html>
