@@ -3,31 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Share Your Thoughts</title>
+  <title>Share Your Thoughts & Poems</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Submit your poems, quotes, or inspirational images. All submissions are reviewed before appearing on the website.">
+  <meta name="keywords" content="share thoughts, submit poems, quotes, images, inspiration, ideas, user submissions, emotional support">
+  <meta name="author" content="Your Name">
+
+  <!-- Google Verification -->
+  <meta name="google-site-verification" content="VLy_eupP7seMwR6XFBiZKjZ5p_KkhI7CSGdnnPhWWMs" />
+
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Simple styling for the form */
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input[type="text"],
+    textarea {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="file"] {
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    p.instructions {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
+  <!-- Header / Navigation -->
   <header>
-    <h1>Share Your Thoughts</h1>
+    <h1>Share Your Thoughts & Poems</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="ideas.html">Ideas</a>
-      <a href="books.html">Books</a>
+      <a href="poems.html">Poems & Thoughts</a>
+      <a href="celebrate.html">Celebrate</a>
       <a href="share.html">Share Your Thoughts</a>
+      <a href="books.html">My Books</a>
     </nav>
   </header>
 
   <section class="container">
-    <h2>Let Me Know Your Ideas!</h2>
-    <form action="https://formspree.io/f/yourformid" method="POST">
-      <textarea name="thought" placeholder="Type your thought here..." required style="width:100%;height:150px;padding:0.5rem;"></textarea>
-      <br>
-      <button type="submit" class="btn">Submit</button>
+    <h2>Submit Your Content</h2>
+    <p class="instructions">
+      Share a quote, poem, or an inspirational image. All submissions are **reviewed by us before appearing on the website** to ensure safety and appropriateness.
+    </p>
+
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+      <label for="name">Your Name (optional):</label>
+      <input type="text" name="name" id="name" placeholder="Your Name">
+
+      <label for="quote">Your Quote or Poem:</label>
+      <textarea name="quote" id="quote" rows="4" placeholder="Write your poem or quote here..." required></textarea>
+
+      <label for="image">Upload an Image (optional, max 5MB):</label>
+      <input type="file" name="image" id="image" accept="image/*">
+
+      <input type="submit" value="Submit">
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2026 My Ideas Website</p>
+    <p>&copy; 2026 Thoughts, Poems & My Books</p>
   </footer>
 </body>
 </html>
