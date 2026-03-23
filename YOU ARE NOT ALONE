@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>You Are Not Alone</title>
 
-  <!-- SEO Meta Tags -->
   <meta name="description" content="Support, encouragement, and inspiring messages. You are never alone. Share your thoughts, poems, or images here.">
   <meta name="keywords" content="you are not alone, encouragement, support, inspiration, quotes, poems, thoughts, mental health">
   <meta name="author" content="Your Name">
@@ -14,14 +13,14 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
+      background: linear-gradient(to bottom right, #e6e6fa, #d8bfd8);
       margin: 0;
       padding: 0;
       color: #333;
     }
 
     header {
-      background-color: #d6336c;
+      background-color: #7b1fa2;
       color: white;
       padding: 20px;
       text-align: center;
@@ -45,12 +44,12 @@
     }
 
     h1, h2 {
-      color: #d6336c;
+      color: #4a148c;
       text-align: center;
     }
 
     .message-card {
-      background-color: #fff0f5;
+      background-color: #f3e5f5;
       border-radius: 15px;
       padding: 20px;
       margin: 20px 0;
@@ -66,9 +65,24 @@
     footer {
       text-align: center;
       padding: 15px;
-      background-color: #d6336c;
+      background-color: #7b1fa2;
       color: white;
       margin-top: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 18px;
+      background-color: #4a148c;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #311b92;
     }
 
     @media (max-width: 600px) {
@@ -81,7 +95,6 @@
 </head>
 <body>
 
-  <!-- Header / Navigation -->
   <header>
     <h1>You Are Not Alone</h1>
     <nav>
@@ -110,16 +123,16 @@
 
     <div class="message-card">
       <p>
-        <strong>Tip:</strong> You can also <a href="share.html">submit your own poem, quote, or image</a> to inspire others. All submissions are reviewed before appearing on the site.
+        <strong>Tip:</strong> You can also <a href="share.html" class="button">submit your own poem, quote, or image</a> to inspire others. All submissions are reviewed before appearing on the site.
       </p>
     </div>
 
-    <!-- Optional inspirational image example -->
+    <!-- Example Inspirational Image -->
     <div class="message-card">
       <p>
-        "The sun will rise, and we will try again."
+        "Even in the darkest times, a small light can guide your way."
       </p>
-      <img src="images/example-inspiration.jpg" alt="Sunrise inspiration">
+      <img src="images/example-support.jpg" alt="Inspirational light">
     </div>
   </section>
 
