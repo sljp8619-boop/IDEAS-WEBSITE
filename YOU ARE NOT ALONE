@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You Are Not Alone</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .message-card {
+      background-color: #ffebf0;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #d6336c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>You Are Not Alone</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="poems.html">Poems & Thoughts</a>
+      <a href="you-are-not-alone.html">You Are Not Alone</a>
+      <a href="share.html">Share Your Thoughts</a>
+      <a href="books.html">My Books</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>Encouragement & Support</h2>
+    <div class="message-card">
+      <p>
+        Feeling alone, sad, or overwhelmed? You are never truly alone. 
+        Here, we share thoughts, poems, and messages to lift your spirit.
+      </p>
+    </div>
+    <div class="message-card">
+      <p>
+        Celebrate life, support each other, and share kindness. Your feelings matter.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Thoughts, Poems & My Books</p>
+  </footer>
+</body>
+</html>
