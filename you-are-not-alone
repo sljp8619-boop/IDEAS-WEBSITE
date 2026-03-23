@@ -13,7 +13,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #e6e6fa, #d8bfd8);
+      background: linear-gradient(to bottom right, #f3e5f5, #e1bee7); /* pastel purple gradient */
       margin: 0;
       padding: 0;
       color: #333;
@@ -49,7 +49,7 @@
     }
 
     .message-card {
-      background-color: #f3e5f5;
+      background-color: #f8bbd0; /* pastel pink card */
       border-radius: 15px;
       padding: 20px;
       margin: 20px 0;
